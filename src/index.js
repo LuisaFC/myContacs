@@ -1,12 +1,12 @@
-const express = require('express')
+const express = require('express');
 
-//create server
-const app = express()
+// create server
+const app = express();
 
-//create route
+// create route
 app.get('/', (request, response) => {
-  response.send('Hello World')
-})
+  response.send('Hello World');
+});
 
-//start server
-app.listen(3000, () => console.log('🔥 Server started at http://localhost:3000'))
+// start server
+app.listen(3000, () => console.log('🔥 Server started at http://localhost:3000'));
