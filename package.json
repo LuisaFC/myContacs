@@ -6,7 +6,8 @@
   "author": "Luisa Correa",
   "license": "MIT",
   "scripts": {
-    "start": "npx nodemon src/index"
+    "dev": "npx nodemon src/index",
+    "lint": "eslint ."
   },
   "dependencies": {
     "express": "^4.18.1"
