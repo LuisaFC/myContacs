@@ -13,7 +13,7 @@ const client = new Client({
 client.connect();
 
 // Executar queries no banco de dados
-exports.query = async (query) => {
-  const { rows } = await client.query(query);
+exports.query = async (query, values) => {
+  const { rows } = await client.query(query, values);
   return rows;
 };
